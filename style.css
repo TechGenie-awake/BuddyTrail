@@ -661,7 +661,7 @@ nav {
 
 
 }
-.card {
+/*.card {
   text-align: center;
     flex: 1 1 25rem;
     min-height: 38vh;
@@ -679,6 +679,32 @@ nav {
   scale: 1.02;
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.205),
     0px 20px 20px rgba(0, 0, 0, 0.205);
+}*/
+
+.card {
+  text-align: center;
+  flex: 1 1 25rem;
+  min-height: 35vh;
+  margin: 1rem 2rem;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  background: #f9f9f9;
+  border-radius: 15px;
+  width: 18pc;
+  padding: 1.5rem;
+  color: #333;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Optional: Font styling for travel-related minimalism */
+.card h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #2b2b2b;
 }
 
 .cards img {
